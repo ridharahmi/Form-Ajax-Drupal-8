@@ -1,0 +1,5 @@
+form.config:
+  title: 'Form Api Ajax'
+  description: 'CustomForm Api Ajax'
+  parent: system.admin_config_system
+  route_name: form.content

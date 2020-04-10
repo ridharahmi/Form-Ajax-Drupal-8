@@ -1,0 +1,6 @@
+name: 'Form Ajax'
+description: 'Form Ajax With Drupal 8.'
+type: module
+package: custom
+core: 8.x
+version: 8.x

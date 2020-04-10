@@ -1,0 +1,7 @@
+form.content:
+  path: '/form-ajax'
+  defaults:
+    _controller:  '\Drupal\form_api_ajax\Controller\AjaxController::content'
+    _title: 'Form Api Ajax'
+  requirements:
+    _permission: 'access content'

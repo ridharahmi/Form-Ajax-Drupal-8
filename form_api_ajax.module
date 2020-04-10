@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function form_api_ajax_theme($existing, $type, $theme, $path) {
+    return [
+        'ajax_page' => [
+            'variables' => [
+                'my_form' => NULL,
+            ],
+        ],
+    ];
+}
+
+/**
+ * @custom css style
+ * */
+
+function form_api_ajax_page_attachments(array &$variables)
+{
+    $variables['#attached']['library'][] = 'form_api_ajax/custom_style';
+}

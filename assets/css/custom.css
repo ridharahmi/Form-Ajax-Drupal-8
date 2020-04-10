@@ -1,0 +1,16 @@
+.form_api .my_form .button {
+     background: #8BC34A;
+     color: #fff;
+     border: transparent;
+     padding: 5px 30px;
+ }
+.form_api .my_form .button:hover {
+    background: #009688;
+    border-radius: 0;
+}
+
+.form_api .my_form #my-imput
+{
+    border: 1px solid #8BC34A !important;
+    width: 20%;
+}
